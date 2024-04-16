@@ -1,7 +1,7 @@
 {
   "name": "Minha Lista de Tarefas",
-  "short_name": "Lista de Tarefas",
-  "start_url": "Lista de Tarefas/index.html",
+  "short_name": "ListaDeTarefas",
+  "start_url": "ListaDeTarefas/index.html",
   "start_css": "/style.css",
   "display": "standalone",
   "background_color": "#ffffff",
