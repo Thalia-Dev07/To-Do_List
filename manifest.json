@@ -1,7 +1,7 @@
 {
   "name": "Minha Lista de Tarefas",
   "short_name": "Lista de Tarefas",
-  "start_url": "/index.html",
+  "start_url": "Lista de Tarefas/index.html",
   "start_css": "/style.css",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -10,7 +10,8 @@
     {
       "src": "/icons/icon-144x144.png",
       "sizes": "144x144",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "/icons/icon-192x192.png",
