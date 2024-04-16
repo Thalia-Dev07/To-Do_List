@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #ededed;
+}
+
+header {
+  background-color: #5a877d;
+  position: fixed;
+  width: 100%;
+  height: 4rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  width: 4rem;
+  height: 4rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  width: 100%;
+}
+
+nav ul li button {
+  background-color: #ededed;
+  border: none;
+  border-radius: 40px;
+  font-size: 0.4;
+  height: 25px;
+  font-weight: 600;
+  padding: 5px 5px;
+}
+
+/* MAIN  */
+
+main {
+  text-align: center;
+}
+
+main#mainConteiner {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+#mainConteiner img {
+  margin-top: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+#mainConteiner .caixaList {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  width: 21rem;
+  height: 17rem;
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+.caixaList .addLis {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px auto;
+  width: 17rem;
+  height: 3.12rem;
+}
+
+.addLis input {
+  width: 10rem;
+  height: 2rem;
+  text-align: center;
+}
+
+#mainConteiner .caixaList .addLis img {
+  width: 2rem;
+  height: 2rem;
+  margin: auto 0;
+}
+
+.caixaList .taskListConteiner {
+  display: flex;
+  flex-direction: column;
+  margin: 5px auto;
+  height: 12rem;
+  width: 19rem;
+  overflow: auto;
+}
+
+.taskListConteiner ul {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+  list-style-type: none;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  overflow: auto;
+}
+
+.taskListConteiner ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+@media (min-width: 767px) {
+  main#mainConteiner {
+  }
+
+  #mainConteiner img {
+    margin-top: 100px;
+  }
+}
