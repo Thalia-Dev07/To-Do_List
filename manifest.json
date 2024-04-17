@@ -16,8 +16,9 @@
     }
   ],
   "start_url": "/ListaDeTarefas/index.html",
-  "start_css": "/style.css",
   "display": "standalone",
+  "start_css": "style.css",
+  "scope": "/",
   "background_color": "#ffffff",
   "theme_color": "#2196f3"
 }
