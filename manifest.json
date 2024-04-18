@@ -1,0 +1,17 @@
+{
+    "background_color": "#ededed",
+    "dir": "ltr",
+    "display": "standalone",
+    "name": "TO-DO List",
+    "orientation": "any",
+    "scope": "/",
+    "short_name": "TO-DO List",
+    "start_url": "/",
+    "theme_color": "#ededed",
+    "description": "Seja organizado com suas tarefas através do nosso aplicativo web TO-DO List",
+    "lang": "pt",
+    "categories": [
+      "education",
+      "entertainment"
+    ]
+  }
